@@ -1,0 +1,7 @@
+# Normaliza saltos de linea para que Windows/Mac/Linux no peleen en los commits
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.jar binary
+*.png binary
+*.jpg binary
